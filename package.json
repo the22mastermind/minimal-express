@@ -1,0 +1,21 @@
+{
+  "name": "minimal-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/the22mastermind/minimal-express.git",
+  "author": "the22mastermind <bertrandmasabo22@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "netlify-lambda": "^2.0.1",
+    "serverless-http": "^2.6.0",
+    "stripe": "^8.120.0"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
+  }
+}
